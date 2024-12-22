@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./WeatherApp.css";
-
+ 
 function WeatherApp() {
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
