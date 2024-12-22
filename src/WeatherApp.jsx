@@ -17,7 +17,6 @@ function WeatherApp() {
                 throw new Error("City not found");
             }
             const data = await response.json();
-            console.log(data);
             setWeather(data);
         } catch (err) {
             setError(err.message);
