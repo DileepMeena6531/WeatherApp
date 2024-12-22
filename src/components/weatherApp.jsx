@@ -26,6 +26,11 @@ function WeatherApp() {
     const handleSubmit = (event) => {
         event.preventDefault();
 
+        if(city.trim()===""){
+            setError("Please enter a city name");
+            return;
+        }
+
         fetchWeather();
 
     };
