@@ -32,14 +32,14 @@ The Weather App is a web application that allows users to check the current weat
 ### Steps
 
 1. Clone the repository:
-   git clone https://github.com/DileepMeena6531/WeatherApp.git
+   - git clone https://github.com/DileepMeena6531/WeatherApp.git
 
 2. Install dependencies:
-   npm install
+   - npm install
 3. Set up your API key:
-    Create a .env file in the project root.
-   <p>VITE_WEATHER_API_URL=your_api_URL_here</p>
-  <p>VITE_WEATHER_API_KEY=your_api_key_here</p>
+   <p>Create a .env file in the project root.</p>
+   - VITE_WEATHER_API_URL=your_api_URL_here
+  -VITE_WEATHER_API_KEY=your_api_key_here
 
 4. Start the development server:
-   <a>npm run dev</a>
+   - npm run dev
