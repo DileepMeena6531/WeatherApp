@@ -1,51 +1,45 @@
-🌦️ Weather App
+# 🌦️ Weather App
 
-📖 Introduction
+## 📖 Introduction
+
 The Weather App is a web application that allows users to check the current weather conditions and forecasts for any location. Built with modern web technologies, it provides a user-friendly interface and real-time data fetched from a weather API.
 
-🌟 Features
+## 🌟 Features
 
-🔍 Search for current weather by city name.
+- 🔍 Search for current weather by city name.
+- 📊 Display weather details like temperature, humidity, wind speed, and weather conditions.
+- 🌈 Responsive design for seamless usage on desktops, tablets, and mobile devices.
+- 🚨 Error handling for invalid city names or API issues.
 
-📊 Display weather details like temperature, humidity, wind speed, and weather conditions.
+## 🛠️ Tech Stack
 
-🌈 Responsive design for seamless usage on desktops, tablets, and mobile devices.
+### Frontend:
 
-🚨 Error handling for invalid city names or API issues.
+- ⚡ **Vite**: For fast and efficient development.
+- ⚛️ **React.js**: For building the user interface.
+- 🎨 **CSS**: For styling the application.
 
-🛠️ Tech Stack
+### API:
 
-Frontend:
+- 🌐 **Weather API**: Data sourced from [OpenWeatherMap](https://openweathermap.org/).
 
-⚡ Vite: For fast and efficient development.
+### Deployment:
 
-⚛️ React.js: For building the user interface.
+- Hosted on **Onrender**.
 
-🎨 CSS: For styling the application.
+## 🚀 Setup Instructions
 
-API:
+### Steps
 
-🌐 Weather API: Data sourced from OpenWeatherMap.
+1. Clone the repository:
+   git clone https://github.com/DileepMeena6531/WeatherApp.git
 
-Deployment:
+2. Install dependencies:
+   npm install
+3. Set up your API key:
+    Create a .env file in the project root.
+   <p>VITE_WEATHER_API_URL=your_api_URL_here</p>
+  <p>VITE_WEATHER_API_KEY=your_api_key_here</p>
 
-Hosted on Onrender.
-
-Steps
-
-Clone the repository:
-
-git clone https://github.com/DileepMeena6531/WeatherApp.git
-
-Install dependencies:
-
-npm install 
-
-Set up your API key:
-
-Create a .env file in the project root.
-VITE_WEATHER_API_URL=your_api_URL_here
-VITE_WEATHER_API_KEY=your_api_key_here
-
-Start the development server:
-npm run dev
+4. Start the development server:
+   <a>npm run dev</a>
